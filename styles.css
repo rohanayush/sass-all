@@ -1,0 +1,141 @@
+body .container .box-second .button-primary, body .container .box .button, .button-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 11px;
+}
+
+body .container .box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button-secondary {
+  background-color: #582b43;
+}
+
+body {
+  background: rgb(34, 8, 8);
+}
+body .container {
+  text-align: center;
+  width: 100%;
+}
+body .container .col-1 {
+  background: red;
+  height: 200px;
+  width: 8.3333333333%;
+}
+body .container .col-2 {
+  background: red;
+  height: 200px;
+  width: 16.6666666667%;
+}
+body .container .col-3 {
+  background: red;
+  height: 200px;
+  width: 25%;
+}
+body .container .col-4 {
+  background: red;
+  height: 200px;
+  width: 33.3333333333%;
+}
+body .container .col-5 {
+  background: red;
+  height: 200px;
+  width: 41.6666666667%;
+}
+body .container .col-6 {
+  background: red;
+  height: 200px;
+  width: 50%;
+}
+body .container .col-7 {
+  background: red;
+  height: 200px;
+  width: 58.3333333333%;
+}
+body .container .col-8 {
+  background: red;
+  height: 200px;
+  width: 66.6666666667%;
+}
+body .container .col-9 {
+  background: red;
+  height: 200px;
+  width: 75%;
+}
+body .container .col-10 {
+  background: red;
+  height: 200px;
+  width: 83.3333333333%;
+}
+body .container .col-11 {
+  background: red;
+  height: 200px;
+  width: 91.6666666667%;
+}
+body .container .col-12 {
+  background: red;
+  height: 200px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  body .container {
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  body .container {
+    width: 50%;
+  }
+}
+body .container h1 {
+  color: #0b4b8f;
+  font-size: 83.2px;
+}
+body .container p {
+  color: #ffc107;
+}
+body .container .box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: #0b4b8f;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 55%;
+}
+body .container .box .button {
+  background-color: #181b0f;
+}
+body .container .box-second {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0px 14px 18px rgba(119, 218, 221, 0.1);
+  border-radius: 12px;
+  z-index: 999;
+  width: 200px;
+  height: 200px;
+  background-color: #4ee720;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+}
+body .container .box-second .button-primary {
+  background-color: #dc3545;
+}/*# sourceMappingURL=styles.css.map */
